@@ -28,7 +28,6 @@ Build the application:
 go mod tidy
 go build .
 ```
-Usage
 To run Servicegui, execute the following command in the terminal:
 ```
 ./servicegui
