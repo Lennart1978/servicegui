@@ -8,6 +8,7 @@ Features:
 - Filter services based on their states: active, inactive, or all.
 - Perform actions like stop, restart, and remove on selected services.
 - User-friendly GUI built with Fyne.
+<p align="center"><img src="Screenshot2.png" alt="Screenshot"></p>
 
 Installation:
 Prerequisites
