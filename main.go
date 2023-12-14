@@ -56,7 +56,7 @@ func updateTable(list *widget.Table) {
 	}
 
 	sort.Slice(services, func(i, j int) bool {
-		return services[i].Name < services[j].Name
+		return strings.ToLower(services[i].Name) < strings.ToLower(services[j].Name)
 	})
 
 	for _, s := range services {
